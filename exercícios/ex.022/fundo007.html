@@ -6,20 +6,31 @@
     <title>Aalinhamento vertical</title>
     <style>
         section#container {
-            height: 500px;
+            background-image: url('imagens/target001.png');
+            position: relative;
+            height: 94vh;
+            
             padding: 10px;
             background-color: #f10505;
+            background-size: 100% 100%;
         }
 
         article#conteudo {
+            position: absolute;
             height: 200px;
             width: 400px;
             background-color: chartreuse;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+           
         }
     </style>
 </head>
 <body>
-    <section id="containe">
+    <section id="container">
         <article id="conteudo">
 
         </article>
