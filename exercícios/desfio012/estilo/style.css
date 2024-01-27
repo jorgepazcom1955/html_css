@@ -54,16 +54,13 @@ section.imagem {
 
 section.imagem > p {
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.322);
 }
 
 footer {
-    background-color: rgb(71, 69, 69);
+    background-color: #131212;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-footer > p {
-    background-color: black;
-}
