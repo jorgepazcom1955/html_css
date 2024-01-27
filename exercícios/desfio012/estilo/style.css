@@ -10,18 +10,20 @@ html, body {
 }
 
 header {
-    background-color: black;
-    color: white;
-    text-align: center;
+    background-color: #0e0d0d;
+    color: white;  
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    text-align: center;
 }
 
 header > p {
     padding-bottom: 50px;
+    text-align: center;
+    padding-right: 20px;
 }
 
 header a, footer a {
@@ -34,13 +36,24 @@ header a:hover footer a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
 section.normal {
     background-color: white;
     color: #000;
 }
 
+section.imagem {
+    background-color: #00000056;
+    color: white;
+}
+
 footer {
-    background-color: black;
+    background-color: rgb(71, 69, 69);
     color: white;
     text-align: center;
     padding: 10px;
