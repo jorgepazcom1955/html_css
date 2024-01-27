@@ -23,7 +23,6 @@ header > h1 {
 header > p {
     padding-bottom: 50px;
     text-align: center;
-    padding-right: 20px;
 }
 
 header a, footer a {
@@ -40,6 +39,7 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    padding-left: 30px;
 }
 
 section.normal {
@@ -52,9 +52,18 @@ section.imagem {
     color: white;
 }
 
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
 footer {
     background-color: rgb(71, 69, 69);
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+footer > p {
+    background-color: black;
 }
