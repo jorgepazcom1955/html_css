@@ -11,6 +11,15 @@
 
         table {
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: static;
+            top: -1px;
+            background-color: black;
+
         }
 
         td, th {
@@ -19,7 +28,7 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #222121;
             color: white;
         }
 
@@ -27,13 +36,13 @@
             text-align: right;
         }
 
-        tbody > tr:nth-child(odd) {
+        tbody > tr:nth-child(odd) { /* 2n-1 */
             background-color: white;
         }
 
 
-        tbody > tr:nth-child(even) {
-            background-color: lightgray;
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgrey;
         }
 
         caption {
