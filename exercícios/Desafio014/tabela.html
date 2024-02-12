@@ -32,17 +32,18 @@
         <caption>Desafio-014</caption>
         <thead>
             <tr>
-                <th>Área</th>
-                <th>Disciplinas</th>
-                <th>Notas</th>
-                <th>Notas 1</th> <th>Notas 2</th>
-                <th>Média</th>
+                <th scope="col">Área</th>
+                <th scope="col">Disciplinas</th>
+                <th scope="col">Notas</th>
+                <th scope="col">Notas 1</th> 
+                <th scope="col">Notas 2</th>
+                <th scope="col">Média</th>
             </tr>
             
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="col">Exatas</th>
                 <td>Matemática</td>
                 <td>00</td>
                 <td>00</td>
@@ -69,11 +70,11 @@
                 <td>00</td>
             </tr>
             <tr>
-                <th colspan="5">Média de Exatas</th>
+                <th colspan="5" scope="row">Média de Exatas</th>
                 <td>00</td>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
                 <td>Historia</td>
                 <td>00</td>
                 <td>00</td>
@@ -88,7 +89,7 @@
                 <td>00</td>
             </tr>
             <tr>
-                <th colspan="5">Média Humanas</th>
+                <th colspan="5" scope="row">Média Humanas</th>
                 <td>00</td>
             </tr>
         </tbody>
