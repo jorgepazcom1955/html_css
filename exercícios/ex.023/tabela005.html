@@ -24,22 +24,75 @@
             border: 1px solid black;
             padding: 10px;
         }
+
+        col.cnome {
+            background-color: aqua;
+        }
     </style>
 </head>
 <body>
     <h1>Exerecícios de tabelas</h1>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class=" cidade">
+            <col class="cprof">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
-            <th>Sexo</th>
-            <th>Idade</th>
-            <th>Profisão</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profisão</th>
         </tr>
         <tr>
             <td>Ana Maria</td>
             <td>F</td>
             <td>25</td>
             <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claúdio</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Antonio Gaspar</td>
+            <td>M</td>
+            <td>40</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Maria de Almeida</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Doméstica</td>
+        </tr>
+        <tr>
+            <td>Jorge Luiz</td>
+            <td>M</td>
+            <td>40</td>
+            <td>Ti</td>
+        </tr>
+        <tr>
+            <td>Luiz Carlos</td>
+            <td>M</td>
+            <td>50</td>
+            <td>Eletrecista</td>
+        </tr>
+        <tr>
+            <td>Fernando José</td>
+            <td>M</td>
+            <td>60</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Maria Isabel</td>
+            <td>F</td>
+            <td>40</td>
+            <td>Juiza</td>
         </tr>
     </table>
 </body>
