@@ -41,7 +41,6 @@ Grandes telas: acima 1200px
    img#print { display: block; }
    img#pc { display: none; }
    img#tv { display: none; }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){ /*TABLET */
