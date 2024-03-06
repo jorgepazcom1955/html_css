@@ -12,11 +12,13 @@ body, html {
 
 header {
     background-color: rgb(155, 151, 151);
+    
 }
 
 header > h1 {
-    padding: 10px;
+    margin: 10px;
     text-align: center;
+    
 }
 
 i#burguer {
@@ -35,8 +37,6 @@ i#burguer:hover {
 
 menu {
     display: none;
-    
-    
 }
 
 menu > ul {
