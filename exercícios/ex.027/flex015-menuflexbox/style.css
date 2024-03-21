@@ -28,13 +28,13 @@ header > h1 {
     flex: 0 0 200px;
 }
 
-header > nav {
+header > menu {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
 }
 
-header > nav > a {
+header > menu > a {
     background-color: black;
     color: white;
     padding: 10px;
@@ -44,7 +44,7 @@ header > nav > a {
     text-align: center;
 }
 
-header > nav > a:hover {
+header > menu > a:hover {
     background-color: white;
     color: black;
     transition: background-color .5s;
