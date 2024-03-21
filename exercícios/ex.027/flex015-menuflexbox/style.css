@@ -50,6 +50,20 @@ header > menu > a:hover {
     transition: background-color .5s;
 }
 
+i#burguer {
+    background-color: rgb(68, 68, 68);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
 main {
     background-color: white;
     margin: 15px;

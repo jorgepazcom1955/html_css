@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Menu Flexbox</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <a href="#">Opçao 1</a>
             <a href="#">Opçao 2</a>
             <a href="#">Opçao 3</a>
@@ -23,5 +26,22 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis blanditiis expedita culpa facere, fugit quasi est, ullam, voluptates quo commodi doloremque sit beatae esse voluptatum illo eligendi maxime eaque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia assumenda repellat voluptatibus, rerum corrupti, blanditiis exercitationem aliquid voluptatum, unde saepe accusamus maiores! Saepe vel, quaerat modi perferendis optio maiores iste!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aliquid totam quasi nulla quibusdam maxime accusantium recusandae culpa explicabo consequatur eaque nostrum, minima, assumenda et consequuntur voluptate eius repellat eos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, veritatis provident fuga doloribus molestiae, veniam voluptates cupiditate nam suscipit velit debitis ut hic nihil. Reprehenderit velit deleniti sint veniam ratione.</p>
     </main>
+    <script>
+        function mudouTamanho(){
+           if (window.innerWidth >= 768) {
+               itens.style.display = 'block'
+           }else{
+               itens.style.display = 'none'
+           }
+        }
+
+       function clickMenu(){
+           if(itens.style.display =='block'){
+               itens.style.display = 'none'
+           }else{
+               itens.style.display = 'block'
+           }
+       }
+   </script>
 </body>
 </html>
