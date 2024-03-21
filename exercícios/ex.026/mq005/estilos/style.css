@@ -16,9 +16,8 @@ header {
 }
 
 header > h1 {
-    margin: 10px;
+    padding-top: 15px;
     text-align: center;
-    
 }
 
 i#burguer {
