@@ -64,6 +64,24 @@ i#burguer:hover {
     color: black;
 }
 
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-top: 2px solid rgb(177, 173, 173);
+}
+
 main {
     background-color: white;
     margin: 15px;
