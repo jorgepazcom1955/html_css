@@ -10,8 +10,11 @@ body, html {
     background-color: lightgray;
 }
 
-header {
-    background-color: rgb(155, 151, 151);
+header menu {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     
 }
 
